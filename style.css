@@ -1,0 +1,130 @@
+.container {
+    border: 10px solid white;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(247, 243, 242, 0.4)
+}
+.red {
+    color:red;
+}
+.buttons {
+    display:flex;
+    justify-content: center;
+}
+
+body {
+    /* background-repeat: no-repeat; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat:no-repeat;
+    background-size : cover;
+    background-position: center;
+    background-image: url('https://t1.daumcdn.net/cfile/tistory/990E69385EBE00A10B?original');
+    font-family: "East Sea Dokdo", cursive;
+}
+
+button {
+        height: 10vw;
+        width: 10vw;
+        margin-top: 5px;
+        border-radius: 50px;
+        font-size: 3vw;
+        font-weight: bold;
+        margin: 1vw;
+        color: white;
+        background-color: green;
+        border: none;
+}
+
+button:hover {
+    cursor:pointer;
+}
+button:focus {
+    outline:none;
+}
+
+input:focus {
+    outline:none;
+}
+
+.resetButton {
+    width: 12vw;
+    background-color: orange;
+    border-radius: 33px;
+}
+
+#title {
+    font-size: 13vw;
+  font-weight: bold;
+  color: blue;
+}
+
+#sub-title {
+    font-size: 7vw;
+  font-weight: bold;
+}
+
+.result {
+        font-size: 3vw;
+        font-weight: bold;
+       
+}
+
+.chanceBlank {
+    font-size: 3vw;
+        font-weight: bold;
+}
+
+input {
+    width: 40vw;
+    height: 5vw;
+    font-size : 3vw
+}
+
+.result-img {
+    width:20vw;
+    height:20vw;
+}
+
+@media screen and (max-width: 48rem) {
+    #title {
+      font-size: 20vw;
+    }
+    #sub-title {
+      font-size: 14vw;
+    } 
+    
+    .result {
+        font-size: 7vw;
+        font-weight: bold;
+       
+}
+.chanceBlank {
+    font-size: 7vw;
+        font-weight: bold;
+}
+.result-img {
+    width: 50vw;
+    height:50vw;
+}
+    .resetButton {
+      font-size: 5vw;
+      width: 20vw;
+      height: 20vw;
+    } 
+    .goButton {
+        font-size: 13vw;
+      width: 25vw;
+      height: 20vw;
+      margin-right : 30px;
+    }
+    input {
+        width: 80vw;
+        height: 15vw;
+        font-size : 6vw;
+        margin-bottom: 2vw;
+    }
+  }
